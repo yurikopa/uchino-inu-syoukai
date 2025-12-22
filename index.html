@@ -5,6 +5,7 @@
 <title>ウチの犬紹介</title>
 <meta name="keyword" content="">
 <meta name="description" content="">
+<link href="style.css" rel="stylesheet" media="all">
 </head>
 
 <body>
@@ -16,13 +17,13 @@
 
 <nav>
 <ol>
-<li><a href="#intro">ご挨拶</a></li>
-<li><a href="#dogs">我が家の犬たち</a>
+<li><a href="#intro" class="big">ご挨拶</a></li>
+<li><a href="#dogs" class="big">我が家の犬たち</a>
     <ul>
-        <li><a href="#コーギー">コーギー</a></li>
-        <li><a href="#サモエド">サモエド</a></li>
-        <li><a href="#シープドッグ">シープドッグ</a></li></ul>
-<li><a href="#profile">作者紹介</a></li>
+        <li><a href="#コーギー" class="small">コーギー</a></li>
+        <li><a href="#サモエド" class="small">サモエド</a></li>
+        <li><a href="#シープドッグ" class="small">シープドッグ</a></li></ul></li>
+<li><a href="#profile" class="big">作者紹介</a></li>
 </ol>
 </nav>
 
@@ -32,51 +33,51 @@
 <h2 id="intro">１．ご挨拶</h2>
 
 <p>このページは我が家のかわいい犬たちを紹介するホームページです。</p>
-<img src="camera_dog.png">
+<img src="camera_dog.png" id="camera">
 <p><strong>※掲載している写真の無断転用・転載はご遠慮ください。</strong></p>
 </section>
 
 <section>
 <h2 id="dogs">２．我が家の犬たち</h2>
-<section>
+
+<section class="dog-block">
     <h3 id="コーギー">■コーギー</h3>
 
+    <img src="dog_corgi_tricolor.png" class="imgL">
     <p>愛情が深くて、明るい性格。活発で遊ぶことが大好きで、ほかの人や犬ともすぐに親しくなることができます。<br>
     もともとは牛を追い集める仕事をしていたため、大きな声で吠えてしまう事もあります。</p>
-    <img src="dog_corgi_tricolor.png">
-    <p><a href="コーギー.html">→紹介ページへ</a></p>
+    <p class="more clear"><a href="コーギー.html">→紹介ページへ</a></p>
 </section>
 
-<section>
+<section class="dog-block">
     <h3 id="サモエド">■サモエド</h3>
 
+    <img src="dog_samoyed.png" class="imgR">
     <p>サモエドは、優しくて穏やかな性格。<br>
     活動的で知的なところもあり、人に対しても犬に対してもフレンドリーに接することができます。<br>
     辛抱強く落ち着いているので、子どもの遊び相手にもなれます。</p>
-    <img src="dog_samoyed.png">
-    <p><a href="サモエド.html">→紹介ページへ</a></p>
+    <p class="more clear"><a href="サモエド.html">→紹介ページへ</a></p>
 </section>
 
-<section>
+<section class="dog-block">
     <h3 id="シープドッグ">■シープドッグ</h3>
-
+    <img src="dog_shetland_sheepdog.png" class="imgL">
     <p>スコットランドのシェトランド諸島を原産地とする犬種のひとつ。<br>
     ラフ・コリーとよく似た外見を持つが、より小型である。</p>
-    <img src="dog_shetland_sheepdog.png">
-    <p><a href="シープドッグ.html">→紹介ページへ</a></p>
+    <p class="more clear"><a href="シープドッグ.html">→紹介ページへ</a></p>
 </section>
 </section>
-</main>
 
 <section>
 <h2 id="profile">３．作者紹介</h2>
-<img src="pet_tatougai_man.png">
+<img src="pet_tatougai_man.png" class="sakusya">
 <dl>
     <dt>名前：</dt><dd>犬山太郎</dd>
     <dt>挨拶：</dt><dd>犬と暮らすことが大好きな、このホームページの作成者です。</dd>
     <dt>HP：</dt><dd><a href="https://www.career-staff.com/" target="_blank">https://www.career-staff.com/</a></dd>
 </dl>
 </section>
+</main>
 
 <footer>
 <small>Copyright &copy; 犬山太郎 All Rights Reserved.</small>

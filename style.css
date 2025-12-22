@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* 背景画像 */
+body {
+    background-image: url(bg_natural_sougen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+/* ページタイトルの設定 */
+h1 {
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    border: 4px solid rgb(250, 210, 232);
+    background-color: rgb(250, 167, 211);
+    color: #fff;
+    font-size: 250%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 30px;
+    text-shadow: 3px 3px 10px rgb(85, 51, 69);
+    box-shadow: 3px 3px 7px rgba(85, 51, 69, 0.5);
+    background-image: linear-gradient(to bottom, rgb(250, 167, 211), rgb(252, 122, 191));
+}
+
+/* 我が家の犬たち */
+header p {
+    text-align: center;
+    font-size: 180%;
+}
+
+/* ナビ */
+nav ol, ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+nav a.small {
+    display: block;
+    width: 120px;
+    margin: 5px auto;
+    padding: 4px;
+    text-align: center;
+    background: #ebb9f4;
+    color: #000;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 3px solid #dc65f3;
+    box-shadow: 3px 3px 7px #2c1431;
+}
+nav a.small:hover {
+    background: #e386f5;
+}
+nav a.big {
+    display: block;
+    width: 160px;
+    margin: 8px auto;
+    padding: 6px;
+    text-align: center;
+    background: #f2cdd2;
+    color: #000;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 3px solid #fe7484;
+    box-shadow: 3px 3px 7px #301619;
+}
+nav a.big:hover {
+    background: #f8929e;
+}
+
+/* メインコンテンツ */
+main {
+    margin: 70px auto;
+    padding: 50px 80px;
+    border: 3px solid rgb(252, 122, 191);
+    background-color: rgb(251, 244, 248);
+    width: 800px;
+}
+
+/* 大見出し */
+h2 {
+    border: 4px solid rgb(250, 210, 232);
+    background-color: rgb(250, 167, 211);
+    color: #fff;
+    padding: 12px;
+    font-size: 170%;
+    text-shadow: 3px 3px 10px rgb(85, 51, 69);
+}
+
+/* もっとみる */
+.more {
+    text-align: center;
+}
+
+/* フロート */
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+.imgR {
+    float: right;
+    margin-left: 20px;
+}
+.clear {
+    clear: both;
+}
