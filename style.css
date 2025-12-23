@@ -106,3 +106,8 @@ h2 {
 .clear {
     clear: both;
 }
+
+/* メインのｐ */
+main p {
+    font-size: 100%;
+}
