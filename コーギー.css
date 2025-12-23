@@ -9,6 +9,10 @@ main {
     width: 800px;
 }
 
+main p {
+    font-size: 25px;
+}
+
 .imgL {
     float: left;
     margin-right: 20px;
