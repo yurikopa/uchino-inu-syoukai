@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+
+main {
+    margin: 70px auto;
+    padding: 50px 80px;
+    border: 3px solid rgb(252, 122, 191);
+    background-color: rgb(251, 244, 248);
+    width: 800px;
+}
+
 .imgL {
     float: left;
     margin-right: 20px;
