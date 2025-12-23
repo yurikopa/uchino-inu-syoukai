@@ -9,8 +9,8 @@ main {
     width: 800px;
 }
 
-.imgL {
-    float: left;
+.imgR {
+    float: right;
     margin-right: 20px;
 }
 

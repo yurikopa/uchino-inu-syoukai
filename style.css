@@ -117,16 +117,25 @@ main p {
     display: none;
 }
 
-#dog1:checked ~
-#dog2:checked ~
-#dog3:checked ~
-.special-link.unlocked {
+
+/* チェックボックス隠し */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* 1. ラベルを赤くする設定 */
+#dog1:checked ~ section label[for="dog1"],
+#dog2:checked ~ section label[for="dog2"],
+#dog3:checked ~ section label[for="dog3"] {
+    color: crimson;
+    font-weight: bold;
+}
+
+/* 2. 特別ページを切り替える設定（1行で繋げます） */
+#dog1:checked ~ #dog2:checked ~ #dog3:checked ~ section #special .special-link.unlocked {
     display: block;
 }
 
-#dog1:checked ~
-#dog2:checked ~
-#dog3:checked ~
-.special-link.locked {
+#dog1:checked ~ #dog2:checked ~ #dog3:checked ~ section #special .special-link.locked {
     display: none;
 }
