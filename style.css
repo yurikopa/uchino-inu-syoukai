@@ -85,7 +85,7 @@ h2 {
     background-color: rgb(250, 167, 211);
     color: #fff;
     padding: 12px;
-    font-size: 170%;
+    font-size: 26px;
     text-shadow: 3px 3px 10px rgb(85, 51, 69);
 }
 
@@ -113,20 +113,20 @@ main p {
 }
 
 /* 特別リンクの表示・非表示 */
-.unlocked {
+.special-link.unlocked {
     display: none;
 }
 
 #dog1:checked ~
 #dog2:checked ~
 #dog3:checked ~
-.unlocked {
+.special-link.unlocked {
     display: block;
 }
 
 #dog1:checked ~
 #dog2:checked ~
 #dog3:checked ~
-.locked {
+.special-link.locked {
     display: none;
 }
