@@ -109,5 +109,24 @@ h2 {
 
 /* メインのｐ */
 main p {
-    font-size: 100%;
+    font-size: 17px;
+}
+
+/* 特別リンクの表示・非表示 */
+.unlocked {
+    display: none;
+}
+
+#dog1:checked ~
+#dog2:checked ~
+#dog3:checked ~
+.unlocked {
+    display: block;
+}
+
+#dog1:checked ~
+#dog2:checked ~
+#dog3:checked ~
+.locked {
+    display: none;
 }
