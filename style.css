@@ -158,8 +158,8 @@ input[type="checkbox"] {
 /* トップ */
 #ue {
     display: block;
-    width: 60px;    /* 15pxだと小さすぎてクリックしにくいため、少し大きめが推奨です */
-    height: 60px;
+    width: 100px;    /* 15pxだと小さすぎてクリックしにくいため、少し大きめが推奨です */
+    height: 100px;
     margin: 20px;
     border-radius: 50%;
     
