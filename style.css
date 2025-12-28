@@ -154,3 +154,24 @@ input[type="checkbox"] {
     max-width: 600px;
     margin: 0 auto;
 }
+
+/* トップ */
+#ue {
+    display: block;
+    width: 60px;    /* 15pxだと小さすぎてクリックしにくいため、少し大きめが推奨です */
+    height: 60px;
+    margin: 20px;
+    border-radius: 50%;
+    
+    /* 要素自体を画面の右下に固定する */
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+
+    background-image: url(top.png);
+    background-repeat: no-repeat;
+    background-position: center; /* 画像をボタンの中央に */
+    background-size: contain;    /* 画像を枠内に収める */
+    
+    text-indent: -9999px;        /* 「TOP」という文字を隠して画像だけ見せる */
+}
