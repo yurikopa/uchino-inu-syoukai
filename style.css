@@ -139,3 +139,12 @@ input[type="checkbox"] {
 #dog1:checked ~ #dog2:checked ~ #dog3:checked ~ section #special .special-link.locked {
     display: none;
 }
+
+/* コメ欄 */
+iframe {
+    width: 100%;
+    height: 420px;
+    border: 2px solid rgb(252, 122, 191);
+    border-radius: 16px;
+    background-color: rgb(251, 244, 248);
+}
