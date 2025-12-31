@@ -33,13 +33,14 @@ header p {
 
 /* ナビ */
 nav ol, ul {
+    font-size: 22px;
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
 }
 nav a.small {
     display: block;
-    width: 120px;
+    width: 150px;
     margin: 5px auto;
     padding: 4px;
     text-align: center;
@@ -55,7 +56,7 @@ nav a.small:hover {
 }
 nav a.big {
     display: block;
-    width: 160px;
+    width: 190px;
     margin: 8px auto;
     padding: 6px;
     text-align: center;
@@ -85,7 +86,7 @@ h2 {
     background-color: rgb(250, 167, 211);
     color: #fff;
     padding: 12px;
-    font-size: 26px;
+    font-size: 30px;
     text-shadow: 3px 3px 10px rgb(85, 51, 69);
 }
 
@@ -147,11 +148,11 @@ input[type="checkbox"] {
     border: 2px solid rgb(252, 122, 191);
     border-radius: 16px;
     background-color: rgb(251, 244, 248);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .waku {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -174,4 +175,33 @@ input[type="checkbox"] {
     background-size: contain;    /* 画像を枠内に収める */
     
     text-indent: -9999px;        /* 「TOP」という文字を隠して画像だけ見せる */
+}
+
+/* コメント投稿 */
+#toukou {
+    text-align: center;
+
+}
+
+/* 特別リンク */
+#special {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+h4 {
+    font-size: 22px;
+}
+
+/* 犬山太郎 */
+dt {
+    font-size: 25px;
+}
+dd {
+    font-size: 20px;
+}
+
+/* ｈ３ */
+h3 {
+    font-size: 30px;
 }
